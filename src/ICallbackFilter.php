@@ -1,6 +1,6 @@
 <?php
 
-namespace BiginFilter;
+namespace Biginvn\Filter;
 
 interface ICallbackFilter
 {

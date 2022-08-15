@@ -1,6 +1,6 @@
 <?php
 
-namespace BiginFilter\Facades;
+namespace Biginvn\Filter\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

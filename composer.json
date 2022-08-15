@@ -1,6 +1,6 @@
 {
-    "name": "bigin/laravel-filter",
-    "description": "BIGIN laravel filter",
+    "name": "biginvn/laravel-filter",
+    "description": "biginvn laravel filter",
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -15,7 +15,7 @@
     ],
     "require": {
         "illuminate/support": "~5",
-        "bigin/laravel-support": "~1.0|~5.0"
+        "biginvn/laravel-support": "~1.0|~5.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~9.0",
@@ -23,21 +23,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Bigin\\Filter\\": "src/"
+            "Biginvn\\Filter\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Bigin\\Filter\\Tests\\": "tests"
+            "Biginvn\\Filter\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Bigin\\Filter\\FilterServiceProvider"
+                "Biginvn\\Filter\\FilterServiceProvider"
             ],
             "aliases": {
-                "Filter": "Bigin\\Filter\\Facades\\Filter"
+                "Filter": "Biginvn\\Filter\\Facades\\Filter"
             }
         }
     }

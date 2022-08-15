@@ -1,6 +1,6 @@
 <?php
 
-namespace BiginFilter\Constants;
+namespace Biginvn\Filter\Constants;
 
 interface References
 {

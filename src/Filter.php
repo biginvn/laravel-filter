@@ -1,13 +1,13 @@
 <?php
 
-namespace BiginFilter;
+namespace Biginvn\Filter;
 
+use Biginvn\Filter\Constants\References;
+use Biginvn\Support\Traits\UserTimezoneTrait;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Database\Query\Builder as QueryBuilder;
 use Illuminate\Support\Facades\Config;
-use BiginFilter\Constants\References;
-use BiginSupport\Traits\UserTimezoneTrait;
 
 class Filter
 {

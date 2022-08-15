@@ -1,6 +1,6 @@
 <?php
 
-namespace BiginFilter;
+namespace Biginvn\Filter;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -17,6 +17,15 @@ class FilterServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->bootForConsole();
         }
+    }
+
+    /**
+     * Console-specific booting.
+     *
+     * @return void
+     */
+    protected function bootForConsole(): void
+    {
     }
 
     /**
@@ -40,15 +49,5 @@ class FilterServiceProvider extends ServiceProvider
     public function provides()
     {
         return ['filter'];
-    }
-
-    /**
-     * Console-specific booting.
-     *
-     * @return void
-     */
-    protected function bootForConsole(): void
-    {
-
     }
 }
